@@ -1,0 +1,4 @@
+-i https://pypi.org/simple
+aiokafka==0.5.2
+asyncio==3.4.3
+kafka-python==1.4.6
