@@ -7,8 +7,8 @@ loop = asyncio.get_event_loop()
 
 logging.basicConfig(level=logging.INFO)
 
-TOPIC = os.environ.get("KAFKA_TOPIC", "vulnerabilities-qa")
-KAFKA_GROUP = os.environ.get("KAFKA_GROUP", "vulnerabilities")
+TOPIC = os.environ.get("KAFKA_TOPIC", "something")
+KAFKA_GROUP = os.environ.get("KAFKA_GROUP", "something")
 BOOTSTRAP_SERVERS = os.environ.get("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
 
 async def consume():
